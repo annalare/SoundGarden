@@ -11,13 +11,15 @@ async function listarEventos() {
   const conteudoResposta = await resposta.json();
   conteudoResposta.forEach((item) => {
     tabela.innerHTML += `<tr>
-    <th scope="row">${conteudoResposta.indexOf(item)}</th>
+    <th scope="row">${conteudoResposta.indexOf(item) + 1}</th>
     <td>${item.scheduled}</td>
     <td>${item.name}</td>
     <td>${item.attractions}</td>
     <td>
         <a href="reservas.html" class="btn btn-dark">ver reservas</a>
-        <a href="editar.html" class="btn btn-secondary">editar</a>
+        <a href="editar-evento.html?id=${
+          item._id
+        }" class="btn btn-secondary">editar</a>
         <a href="editar.html" class="btn btn-danger">excluir</a>
     </td>
 </tr>`;
