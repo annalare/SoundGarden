@@ -1,6 +1,6 @@
 const BASE_URL = "https://xp41-soundgarden-api.herokuapp.com";
 const inputNome = document.querySelector("#nome");
-const inputPoster = document.querySelector("#poster");
+const inputBanner = document.querySelector("#banner");
 const inputAtracoes = document.querySelector("#atracoes");
 const inputDescricao = document.querySelector("#descricao");
 const inputData = document.querySelector("#data");
@@ -12,7 +12,7 @@ form.onsubmit = async (evento) => {
 
   const novoEvento = {
     name: inputNome.value,
-    poster: inputPoster.value,
+    poster: inputBanner.value,
     attractions: inputAtracoes.value.split(","),
     description: inputDescricao.value,
     scheduled: inputData.value,
@@ -33,7 +33,7 @@ form.onsubmit = async (evento) => {
   if (resposta.status == 201) {
     alert("Evento cadastrado com sucesso!");
     inputNome.value = "";
-    inputPoster.value = "";
+    inputBanner.value = "";
     inputAtracoes.value = "";
     inputDescricao.value = "";
     inputData.value = "";

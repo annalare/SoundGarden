@@ -20,7 +20,9 @@ async function listarEventos() {
         <a href="editar-evento.html?id=${
           item._id
         }" class="btn btn-secondary">editar</a>
-        <a href="editar.html" class="btn btn-danger">excluir</a>
+        <a href="excluir-evento.html?id=${
+          item._id
+        }" class="btn btn-danger">excluir</a>
     </td>
 </tr>`;
   });
