@@ -32,6 +32,8 @@ form.onsubmit = async (evento) => {
 
   if (resposta.status == 201) {
     alert("Evento cadastrado com sucesso!");
+    window.location.href = "admin.html";
+
     inputNome.value = "";
     inputBanner.value = "";
     inputAtracoes.value = "";
