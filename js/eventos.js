@@ -37,6 +37,7 @@ async function abreModal(id) {
   tickets.innerHTML = `Tickets disponíveis: (${conteudoResposta.number_tickets})`;
   ingresso.max = conteudoResposta.number_tickets;
 }
+
 function fechaModal() {
   modal.setAttribute("style", "display:none");
   nome.value = "";
@@ -55,7 +56,7 @@ async function listarEventos() {
   console.log(resposta);
 
   const conteudoResposta = await resposta.json();
-  const bandas = conteudoResposta.slice(0, 3);
+  const bandas = conteudoResposta.slice(0, 9);
   bandas.forEach((item) => {
     evento.innerHTML += ` <article class="evento card p-5 m-3">
     <h2>${item.name} - ${dataCorreta(item.scheduled)}</h2>

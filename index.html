@@ -107,21 +107,22 @@
         <div id="formulario">
             <div id="modal">
                 <div class="modal-header">
-                    <h5 class="modal-title">Reserve seu ingresso </h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h5 id="titulo-modal" class="modal-title">Reserve seu ingresso para </h5>
+                    <button id="btn-x" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <form>
+                <form id="form">
                     <label for="name">Nome</label>
                     <input type="text" class="form-control" id="name">
 
                     <label for="email"> E-mail</label>
                     <input type="email" class="form-control" id="email">
 
-                    <label for="ingresso">Tickets</label>
+                    <label id="tickets" for="ingresso">Tickets restantes: </label>
                     <input type="number" class="form-control" value=1 min="1" max="999" id="ingresso">
+
                     <input type="hidden" name="id" id="inputId">
-                    <button type="button" id="botao-modal" class="btn btn-secondary">Fechar</button>
-                    <button type=" button" id="botao-modal" class="btn btn-primary">Reservar ingresso</button>
+                    <button type="button" id="btn-fechar" class="btn btn-secondary botao-modal ">Fechar</button>
+                    <button type="submit" class="btn btn-primary botao-modal ">Reservar ingresso</button>
 
                 </form>
             </div>

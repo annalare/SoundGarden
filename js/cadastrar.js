@@ -16,6 +16,7 @@ form.onsubmit = async (evento) => {
     attractions: inputAtracoes.value.split(","),
     description: inputDescricao.value,
     scheduled: inputData.value.slice(0, 16),
+    number_tickets: inputLotacao.value,
   };
 
   const options = {
