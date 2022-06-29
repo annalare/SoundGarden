@@ -10,8 +10,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/modal.css">
     <script src="./js/index.js" defer></script>
-    <script src="./js/slider.js"></script>
+    <script src="./js/slider.js" defer></script>
 </head>
 
 <body>
@@ -101,23 +102,31 @@
                 </div>
             </div>
         </section>
-        <div class="modal" tabindex="-1">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Modal title</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Modal body text goes here.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
+
+        <!-- modal -->
+        <div id="formulario">
+            <div id="modal">
+                <div class="modal-header">
+                    <h5 class="modal-title">Reserve seu ingresso </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
+                <form>
+                    <label for="name">Nome</label>
+                    <input type="text" class="form-control" id="name">
+
+                    <label for="email"> E-mail</label>
+                    <input type="email" class="form-control" id="email">
+
+                    <label for="ingresso">Tickets</label>
+                    <input type="number" class="form-control" value=1 min="1" max="999" id="ingresso">
+                    <input type="hidden" name="id" id="inputId">
+                    <button type="button" id="botao-modal" class="btn btn-secondary">Fechar</button>
+                    <button type=" button" id="botao-modal" class="btn btn-primary">Reservar ingresso</button>
+
+                </form>
             </div>
         </div>
+
     </main>
     <footer>
         <div class="container d-flex justify-content-center align-items-center">
@@ -137,7 +146,8 @@
         </div>
     </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
