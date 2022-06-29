@@ -3,6 +3,13 @@ body {
   font-family: "Questrial", sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
 .img-responsive {
   max-width: 100%;
 }
@@ -54,6 +61,15 @@ footer nav ul li {
   .evento .card .p-5 .m-3 {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  #painel {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
   }
 }
