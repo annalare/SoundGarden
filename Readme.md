@@ -1,7 +1,9 @@
 # Hands On #2!
 
-<h1> Sound Garden <h1> :musical_note: :guitar:
-<br>
+Sound Garden :musical_note: :guitar:
+
+# Sobre
+
 Uma casa de show chamada Sound Garden será inaugurada e precisa de um site que exiba os eventos e permita que os clientes reservem ingressos através da Landing Page
 
 # Desafio
@@ -10,7 +12,7 @@ Uma casa de show chamada Sound Garden será inaugurada e precisa de um site que 
  <li>Landing Page - Visualizar eventos e fazer reservas 
  <li> Painel Administrativo - Criar, editar , excluir e visualizar reservas de eventos
  
- #Linguagens utilizadas 
+ # Linguagens utilizadas 
  <br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" width="52" alt="css3 logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
