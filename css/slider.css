@@ -31,7 +31,7 @@
 }
 .manual-navigation {
   position: absolute;
-  width: 1250px;
+  width: 1100px;
   margin-top: 250px;
   display: flex;
   justify-content: center;
@@ -63,13 +63,7 @@
 #radio4:checked ~ .first {
   margin-left: -90%;
 }
-.navigation-auto div {
-  border: 3px solid #d3338b;
-  padding: 5px;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: 1s;
-}
+
 .navigation-auto {
   position: absolute;
   width: 1250px;
