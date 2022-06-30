@@ -14,7 +14,7 @@ a {
 }
 
 .img-responsive {
-  max-width: 100%;
+  max-width: 150px;
 }
 
 header {
@@ -88,7 +88,7 @@ footer nav ul li {
   }
   .row aside {
     width: 100%;
-    margin-bottom: -1200px;
+    margin-bottom: -500px;
     text-align: center;
   }
   .row aside img {
@@ -99,3 +99,4 @@ footer nav ul li {
     margin-bottom: 0 !important;
   }
 }
+@media screen and (max-width: 540px);
