@@ -56,7 +56,7 @@ async function listarEventos() {
   console.log(resposta);
 
   const conteudoResposta = await resposta.json();
-  const bandas = conteudoResposta.slice(0, 9);
+  const bandas = conteudoResposta.slice(0, 15);
   bandas.forEach((item) => {
     evento.innerHTML += ` <article class="evento card p-5 m-3">
     <h2>${item.name} - ${dataCorreta(item.scheduled)}</h2>

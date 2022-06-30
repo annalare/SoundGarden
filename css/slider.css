@@ -1,3 +1,12 @@
+#carrossel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .slider {
   margin: 0 auto;
   width: 1200px;
@@ -83,4 +92,7 @@
 }
 #radio4:checked ~ .navigation-auto .auto-btn4 {
   background-color: #fff;
+}
+.slider {
+  width: 100%;
 }

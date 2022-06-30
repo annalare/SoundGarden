@@ -1,0 +1,11 @@
+@media screen and (max-width: 640px) {
+  .table thead tr th:nth-child(2),
+  .table thead tr th:nth-child(2),
+  .table tbody tr td:nth-child(2),
+  .table tbody tr td:nth-child(2) {
+    display: none;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+}

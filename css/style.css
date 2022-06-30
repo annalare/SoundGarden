@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 body {
   font-family: "Questrial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 * {
@@ -33,11 +36,16 @@ aside {
   background-color: #c2185b;
   border-color: #c2185b;
 }
-
+main {
+  width: 100%;
+}
 main.login {
   width: 400px;
 }
-
+#eventos {
+  display: flex;
+  flex-wrap: wrap;
+}
 section.full {
   width: 100%;
   min-height: 80vh;
@@ -71,5 +79,23 @@ footer nav ul li {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 830px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .row aside {
+    width: 100%;
+    margin-bottom: -1200px;
+    text-align: center;
+  }
+  .row aside img {
+    width: 150px;
+  }
+
+  .row aside ul {
+    margin-bottom: 0 !important;
   }
 }
