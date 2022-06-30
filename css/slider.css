@@ -101,10 +101,21 @@
   }
   #logo {
     height: 400px;
-    background-color: #f8bbd0;
+    background-color: #fff;
   }
   #logo img {
     height: 300px;
     width: 600px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #logo {
+    height: 250px;
+  }
+
+  #logo img {
+    height: 150px;
+    width: 200px;
   }
 }

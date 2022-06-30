@@ -143,6 +143,6 @@ footer nav ul li {
   .nav-footer {
     display: flex;
     flex-direction: column;
-    background-color: #f8bbd0;
+    background-color: #fff;
   }
 } ;
