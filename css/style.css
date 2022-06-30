@@ -99,4 +99,16 @@ footer nav ul li {
     margin-bottom: 0 !important;
   }
 }
-@media screen and (max-width: 540px);
+@media screen and (max-width: 540px) {
+  .table {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  tbody {
+    width: 300px;
+  }
+  .btn {
+    width: 80px;
+  }
+} ;
