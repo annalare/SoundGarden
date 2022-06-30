@@ -25,6 +25,7 @@ header {
 }
 aside {
   min-height: 100vh;
+  background-color: blue;
 }
 
 .nav-pills .nav-link.active,
@@ -35,6 +36,20 @@ aside {
 .btn-primary {
   background-color: #c2185b;
   border-color: #c2185b;
+}
+
+.btn-dark {
+  width: 135px;
+}
+.btn-secondary2 {
+  background-color: #6c757d;
+  width: 65px;
+}
+
+.btn-danger2 {
+  background-color: #dc3545;
+  color: #fff;
+  width: 65px;
 }
 main {
   width: 100%;
@@ -65,6 +80,21 @@ footer nav ul li {
   padding: 10px;
 }
 
+@media only screen and (max-width: 1200px) {
+  #painel {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 150px;
+  }
+
+  .row aside {
+    width: 100%;
+    margin-bottom: -200px;
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 880px) {
   .evento .card .p-5 .m-3 {
     display: flex;
@@ -73,24 +103,12 @@ footer nav ul li {
   }
 }
 
-@media only screen and (max-width: 840px) {
-  #painel {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-}
 @media screen and (max-width: 830px) {
   .row {
     display: flex;
     flex-direction: column;
   }
-  .row aside {
-    width: 100%;
-    margin-bottom: -500px;
-    text-align: center;
-  }
+
   .row aside img {
     width: 150px;
   }

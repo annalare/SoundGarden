@@ -30,3 +30,11 @@
 .botao-modal:hover {
   background-color: rgb(71, 85, 207);
 }
+@media screen and (max-width: 540px) {
+  #modal {
+    width: 300px;
+  }
+  .form-control {
+    width: 200px;
+  }
+}

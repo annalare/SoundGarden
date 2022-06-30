@@ -36,7 +36,7 @@ async function listarEventos() {
         }" class="btn btn-secondary">editar</a>
         <a href="excluir-evento.html?id=${
           item._id
-        }" class="btn btn-danger">excluir</a>
+        }" class="btn btn-danger2">excluir</a>
     </td>
 </tr>`;
   });
