@@ -70,7 +70,12 @@ section.full {
 article.evento {
   width: 350px;
 }
-
+header {
+  width: 100%;
+}
+footer {
+  width: 100%;
+}
 footer nav ul {
   list-style: none;
   display: flex;
@@ -99,6 +104,7 @@ footer nav ul li {
     background-color: #fff;
   }
 }
+
 @media only screen and (max-width: 880px) {
   .evento .card .p-5 .m-3 {
     display: flex;
@@ -132,5 +138,11 @@ footer nav ul li {
   }
   .btn {
     width: 80px;
+  }
+
+  .nav-footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8bbd0;
   }
 } ;
