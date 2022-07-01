@@ -59,7 +59,7 @@
                 </div>
                 <div>
                     <!-- - cadastro de evento (nome, atrações, descrição, horário, data, numero de ingressos) -->
-                    <form class="col-6">
+                    <form id="form-evento" class="col-9">
                         <div class="mb-3">
                             <label for="nome" class="form-label">Nome</label>
                             <input type="text" class="form-control" id="nome" aria-describedby="nome" value="Lolla" disabled>
@@ -87,7 +87,7 @@
                             <label for="lotacao" class="form-label">Lotação (número de ingressos disponiveis)</label>
                             <input type="number" class="form-control" id="lotacao" aria-describedby="lotacao" value="100" disabled>
                         </div>
-                        <button type="submit" class="btn btn-danger">excluir pra sempre</button>
+                        <button type="submit" id="excluir" class="btn btn-danger">excluir pra sempre</button>
                     </form>
                 </div>
             </main>

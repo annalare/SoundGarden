@@ -7,7 +7,9 @@
   border-radius: 14px;
   padding: 10px;
 }
-
+#btn-fechar {
+  width: 150px;
+}
 #formulario {
   display: flex;
   align-items: center;
@@ -35,6 +37,10 @@
     width: 300px;
   }
   .form-control {
+    width: 200px;
+  }
+  #btn-fechar {
+    margin-bottom: 10px;
     width: 200px;
   }
 }

@@ -140,6 +140,15 @@ footer nav ul li {
   .btn-secondary {
     width: 80px;
   }
+  #form-evento input {
+    width: 280px;
+  }
+  #form-evento textarea {
+    width: 280px;
+  }
+  #form-evento label {
+    width: 180px;
+  }
 }
 
 @media screen and (max-width: 540px) {
@@ -151,7 +160,9 @@ footer nav ul li {
   tbody {
     width: 700px;
   }
-
+  #excluir {
+    width: 280px;
+  }
   .btn {
     width: 80px;
   }
