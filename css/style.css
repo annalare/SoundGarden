@@ -12,12 +12,14 @@ body {
 a {
   text-decoration: none;
 }
-
+#painel-adm {
+  font-size: 30px;
+}
 .img-responsive {
   max-width: 150px;
 }
 #h1 {
-  font-size: 50px;
+  font-size: 40px;
   width: 300x;
 }
 header {
@@ -27,7 +29,7 @@ header {
   background-color: #fff;
 }
 aside {
-  min-height: 100vh;
+  min-height: 73vh;
   background-color: #f8f9fa;
 }
 
@@ -52,7 +54,7 @@ aside {
 .btn-danger2 {
   background-color: #dc3545;
   color: #fff;
-  width: 65px;
+  width: 80px;
 }
 main {
   width: 100%;
@@ -60,6 +62,7 @@ main {
 main.login {
   width: 400px;
 }
+
 #eventos {
   display: flex;
   flex-wrap: wrap;
@@ -130,6 +133,14 @@ footer nav ul li {
     margin-bottom: 0 !important;
   }
 }
+@media screen and (max-width: 666px) {
+  .btn-dark {
+    width: 80px;
+  }
+  .btn-secondary {
+    width: 80px;
+  }
+}
 
 @media screen and (max-width: 540px) {
   .table {
@@ -138,13 +149,15 @@ footer nav ul li {
     flex-wrap: wrap;
   }
   tbody {
-    width: 600px;
+    width: 700px;
   }
 
   .btn {
     width: 80px;
   }
-
+  #acao {
+    display: none;
+  }
   .nav-footer {
     display: flex;
     flex-direction: column;
@@ -153,10 +166,6 @@ footer nav ul li {
 
   .btn-primary {
     width: 200px;
-  }
-
-  .btn-secondary {
-    width: 80px;
   }
 
   #tabela-controle {
@@ -172,5 +181,9 @@ footer nav ul li {
 
   #painel {
     width: 110%;
+  }
+
+  #titulos {
+    padding-left: 75px;
   }
 } ;
