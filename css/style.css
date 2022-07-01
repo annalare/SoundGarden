@@ -16,7 +16,10 @@ a {
 .img-responsive {
   max-width: 150px;
 }
-
+#h1 {
+  font-size: 50px;
+  width: 300x;
+}
 header {
   position: relative;
   box-shadow: 0px 5px 4px 0px rgb(63 63 63 / 27%);
@@ -127,6 +130,7 @@ footer nav ul li {
     margin-bottom: 0 !important;
   }
 }
+
 @media screen and (max-width: 540px) {
   .table {
     width: 100%;
@@ -134,8 +138,9 @@ footer nav ul li {
     flex-wrap: wrap;
   }
   tbody {
-    width: 300px;
+    width: 600px;
   }
+
   .btn {
     width: 80px;
   }
@@ -144,5 +149,28 @@ footer nav ul li {
     display: flex;
     flex-direction: column;
     background-color: #fff;
+  }
+
+  .btn-primary {
+    width: 200px;
+  }
+
+  .btn-secondary {
+    width: 80px;
+  }
+
+  #tabela-controle {
+    width: 100%;
+  }
+
+  .btn-secondary2 {
+    width: 80px;
+  }
+  #botao-ver-todos {
+    width: 110px;
+  }
+
+  #painel {
+    width: 110%;
   }
 } ;

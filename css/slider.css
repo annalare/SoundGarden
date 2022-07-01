@@ -13,6 +13,7 @@
   height: 700px;
   overflow: hidden;
 }
+
 .slides {
   width: 400%;
   height: 400px;
@@ -101,7 +102,7 @@
   }
   #logo {
     height: 400px;
-    background-color: #fff;
+    background-color: #f8bbd0;
   }
   #logo img {
     height: 300px;
