@@ -101,12 +101,12 @@
     display: none;
   }
   #logo {
-    height: 400px;
+    height: 350px;
     background-color: #f8bbd0;
   }
   #logo img {
     height: 300px;
-    width: 600px;
+    width: 500px;
   }
 }
 
