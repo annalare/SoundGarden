@@ -11,6 +11,13 @@ Uma casa de show chamada Sound Garden será inaugurada e precisa de um site que 
  <li>Neste desafio aprendemos como fazer consumo de uma API utilizando 4 dos métódos HTTP, - GET - POST - PUT - DELETE
  <li>Landing Page - Visualizar eventos e fazer reservas 
  <li> Painel Administrativo - Criar, editar , excluir e visualizar reservas de eventos
+
+# Grupo
+
+ <li> Larissa Mendes
+ <li> Caio do Carmo
+ <li> Pedro Arruda
+ <li> Raphael Anizio
  
  # Linguagens utilizadas 
  <br>
