@@ -40,6 +40,9 @@ form.onsubmit = async (evento) => {
   const resposta = await fetch(`${BASE_URL}/events/${id}`, options);
   if (resposta.status == 204) {
     alert("Evento excluido com sucesso!!");
-    window.location.href = `${window.location.origin}/admin.html`;
+    window.location.href =
+      window.location.pathname == "/SoundGarden/excluir-evento.html"
+        ? `${window.location.origin}/SoundGarden/admin.html`
+        : `${window.location.origin}/admin.html`;
   }
 };
